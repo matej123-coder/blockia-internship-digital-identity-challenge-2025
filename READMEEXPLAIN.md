@@ -15,3 +15,5 @@ MEUCIGdLTsPRg++bFTJQPqImGayDTN8/qIelAWu6QfIHxo4rAiEAleKumRIB0eaaoRx1ycndTAF1swdk
 2.Open the project in your local IDE
 3.Run the project with npm run dev 
 4.Enjoy the app :)
+PS: the files that were created by me are page.tsx in app directory, 
+route.ts in verify subdirectory and page.tsx and HomePage in result directory 

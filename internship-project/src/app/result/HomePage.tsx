@@ -1,7 +1,7 @@
 "use client"
 import { useSearchParams } from "next/navigation";
 
-export default function ResultPage() {
+export default function HomePage() {
   const searchParams = useSearchParams();
   const message  = searchParams.get("message");
   const signature = searchParams.get("signature");
