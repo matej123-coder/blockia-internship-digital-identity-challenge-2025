@@ -18,8 +18,8 @@ export default function Home() {
     });
 
     const data = await res.json();
-
-    router.push(`/result?message=${encodeURIComponent(message)}&signature=${encodeURIComponent(data.signature)}`);
+    console.log(data)
+    router.push(`/result?message=${encodeURIComponent(data.messages)}&signature=${encodeURIComponent(data.signature)}`);
   };
 
   return (

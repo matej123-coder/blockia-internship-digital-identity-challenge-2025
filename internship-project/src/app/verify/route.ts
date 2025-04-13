@@ -33,7 +33,7 @@ export async function POST(req: NextRequest) {
 
   return NextResponse.json({
     verified: isValid,
-    message: isValid ? "Identity verified successfully" : "Verification failed",
+    messages: isValid ? "Identity verified successfully" : "Verification failed",
     signature,
     publicKey: publicKey.export({ type: "spki", format: "pem" }),
   });

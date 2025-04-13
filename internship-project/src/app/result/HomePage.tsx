@@ -11,7 +11,7 @@ export default function HomePage() {
         <h1 className={"text-3xl font-semibold mb-4  text-green-700 "}>
           Original Message </h1>
         <p className={"text-xl px-6 py-4 rounded-2xl shadow-lg text-center text-green-500"}>
-         Identity verified successfully!
+          {message}
         </p>
         <h1 className={"text-3xl font-semibold mb-4  text-green-700 mt-7 "}>
           Signed Message</h1>
