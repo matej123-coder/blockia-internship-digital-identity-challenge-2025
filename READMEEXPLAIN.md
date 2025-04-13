@@ -13,6 +13,7 @@ MEUCIGdLTsPRg++bFTJQPqImGayDTN8/qIelAWu6QfIHxo4rAiEAleKumRIB0eaaoRx1ycndTAF1swdk
 ## Instructions for the project 
 1.Clone the project with the command git clone
 2.Open the project in your local IDE
+4.Install all of the dependencies npm install
 3.Run the project with npm run dev 
 4.Enjoy the app :)
 PS: the files that were created by me are page.tsx in app directory, 
