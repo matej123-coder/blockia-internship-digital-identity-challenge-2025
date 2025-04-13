@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
       <main className="min-h-screen flex flex-col items-center justify-center bg-green-50 px-4">
         <h1 className={"text-3xl font-semibold mb-4  text-green-700 "}>
-          Original Message </h1>
+          Verified Message </h1>
         <p className={"text-xl px-6 py-4 rounded-2xl shadow-lg text-center text-green-500"}>
           {message}
         </p>
