@@ -5,7 +5,7 @@ import { FaFingerprint } from "react-icons/fa";
 export default function Home() {
   const router = useRouter();
 
-  const name = "Matej Minoski";
+  const name = "Matej Minoski1";
   const githubId = "matejm";
   const today = new Date().toISOString().split("T")[0].replace(/-/g, "");
   const message = `BLOCKIA-${name}-${githubId}-${today}`;

@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
 
   if (name !== NAME || githubId !== GITHUB_ID) {
     return NextResponse.json(
-        { verified: false, message: "Identity verification failed" },
+        { verified: false, messages: "Identity verification failed" },
         { status: 401 }
     );
   }
